@@ -1,0 +1,54 @@
+body {
+  position: relative;
+
+  .box {
+    width: 655px;
+    height: 1140px;
+    margin: 8px auto;
+    background: black url(/images/pup.png);
+    background-size: 220%;
+    position: absolute;
+    top: -220px;
+    right: 0;
+    transform: rotate(15deg);
+    z-index: 0;
+    background-position: -500px 220px;
+  }
+
+  .clipInset-sm {
+    -webkit-clip-path: inset(0 0 0 0 round 340px 340px 340px 340px);
+  }
+
+  .box-sm {
+    width: 270px;
+    height: 450px;
+    margin: 8px auto;
+    background: black url(/images/pup.png);
+    background-size: cover;
+    position: relative;;
+    transform: rotate(-15deg);
+    z-index: 0;
+  }
+
+  .clipInset {
+    -webkit-clip-path: inset(0 0 0 0 round 340px 340px 340px 340px);
+  }
+
+  main {
+    position: relative;
+    z-index: 1;
+  }
+
+}
+
+
+.leadgen {
+  background: $primary-color;
+  border-radius: 15px;
+  padding: $padding;
+  color: $white;
+
+  h2 {
+    color: $white;
+  }
+}
