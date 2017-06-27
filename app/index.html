@@ -10,22 +10,22 @@
 </head>
 
 <body>
-<div class="box clipInset"></div>
 
   <main>
+  <div class="box clipInset"></div>
 
 		<div class="medium-container">
       <nav>
-      <a href="#!" id="none"><img src="images/pupmunch-logo.svg" /></a>
+      <a href="#!" class="logo" id="none"><img src="images/pupmunch-logo.svg" /></a>
       </nav>
 
-      <div class="row">
+      <div class="row heading">
         <div class="large-60">
           <h1>Your Dog's Favorite Subscription Box!</h1>
-          <p>A monthly supply of bakery sourced all-natural dog treats. A boutique experience with a wholesale price.
+          <p>A monthly supply of bakery sourced all-natural dog treats. We provide a boutique experience with a wholesale price.
           <span><a href="#comingsoon">Coming soon</a></span></p>
         </div>
-        <div class="large-40">40%</div>
+        <div class="large-40"></div>
       </div>
 
 
@@ -33,35 +33,43 @@
           <div class="large-80">
             <div id="comingsoon" class="leadgen">
               <h2>Get notified when we launch! <span>PSSTT, MID JULY</span></h2>
-              <form>
-                <label for="email">Email Address</label>
-                <input id="email" type="email" placeholder="email@example.com">
-                <input type="submit" value="Submit">
-                <button>Button element</button>
+              <form class="split-form">
+                <div class="row">
+                  <label for="email">Email Address</label>
+                  <div class="small-50">
+                    <input id="email" type="email" placeholder="iwantpupmunch@example.com">
+                  </div>
+
+                  <div class="small-50">
+                    <input type="submit" value="Notify me when you launch!">
+                  </div>
+                </div>
+
               </form>
+              <p class="no-margin-bottom">
+                We appreciate your help, look out for special early bird deals in your inbox!
+              </p>
             </div>
-            <p>
-              We appreciate your help, look out for special early bird deals in your inbox!
-            </p>
           </div>
-          <div class="large-20">20%</div>
+          <div class="large-20"></div>
         </div>
 
 
+      <section id="about">
         <div class="row">
-          <div class="large-20">
+          <div class="small-30">
           <div class="box-sm clipInset-sm"></div>
           </div>
-          <div class="large-80">
+          <div class="small-70 pad-left--50">
             <h1>Wholesomely Great</h1>
             <p>
               PupMunch Monthly is not your dog’s outlet for junk food! As pet parents, we should never feed our pets fattening treats made with harmful ingredients and byproducts. PupMunch Monthly supports small businesses by sourcing our treats from highly acclaimed USA based bakeries and Etsy bakers. Each treat is made with all-natural ingredients that you recognize and can actually pronounce. We make sure the treats do not contain fillers that have no nutritional value. You will only receive wholesome dog treats that will responsibly satisfy your pooch!
             </p>
           </div>
         </div>
-
+      </section>
 			<footer>
-				<p>Made with love <3<a href="#" target="_blank">Link 1</a> in <a href="#">Michigan</a>.</p>
+				<p>Made with <span>&hearts;</span> in Michigan.</p>
 			</footer>
 
 		</div>

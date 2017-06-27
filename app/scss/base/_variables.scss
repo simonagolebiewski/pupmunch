@@ -21,7 +21,7 @@ $desktop: $medium;
 $white: #FFFFFF;
 $primary-color: #00A9FF;
 $secondary-color: #5FBA7D;
-$accent-color: #cdcdcd;
+$accent-color: #3C4858;
 $alternate-background: #fafafa;
 $alternate-color: #404040;
 $link-color: $primary-color;
@@ -33,31 +33,31 @@ $bq-border: 16px solid #f0f0f0;
 /* Typography */
 
 // Body font
-$font-size: 1rem;
-$body-font-size: 1rem;
+$font-size: 18px;
+$body-font-size: 18px;
 $font-style: normal;
 $font-variant: normal;
 $font-weight: normal;
-$font-color: #404040;
+$font-color: #3C4858;
 $font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
 $line-height: 1.6;
 
 // Headings
-$heading-font-color: #404040;
-$heading-font-weight: 600;
-$heading-font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+$heading-font-color: #3C4858;
+$heading-font-weight: 400;
+$heading-font-family:'Ventura Edding Medium';
 $heading-line-height: 1.2;
 
 // Mobile heading font size
-$h1-mobile: 1.75rem;
-$h2-mobile: 1.5rem;
+$h1-mobile: 42px;
+$h2-mobile: 30px;
 $h3-mobile: 1.25rem;
 $h4-mobile: 1.1rem;
 $h5-mobile: 1rem;
 
 // Heading font size
-$h1: 2.25rem;
-$h2: 2rem;
+$h1: 58px;
+$h2: 30px;
 $h3: 1.75rem;
 $h4: 1.5rem;
 $h5: 1.25rem;
@@ -79,7 +79,7 @@ $borders: $border-width $border-style $border-color;
 
 /* Buttons */
 
-$button-background: $primary-color;
+$button-background: $accent-color;
 $button-background-hover: darken($button-background, 10%);
 $button-color: #ffffff;
 $button-font-weight: 600;

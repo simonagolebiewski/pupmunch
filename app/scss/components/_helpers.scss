@@ -1,7 +1,7 @@
 /* Helpers
   =============== */
 
-// Classic clearfix 
+// Classic clearfix
 .clearfix::before,
 .clearfix::after {
 	content: " ";
@@ -92,6 +92,16 @@
 
 .padding-bottom {
 	padding-bottom: 2rem;
+}
+
+.pad-left--50 {
+	@include small-breakpoint {
+		padding-left: 120px;
+	}
+	@include large-breakpoint {
+		padding-left: 50px;
+	}
+	padding-left: 20px;
 }
 
 // Margins
