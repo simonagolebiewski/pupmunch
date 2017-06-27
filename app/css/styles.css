@@ -1241,8 +1241,8 @@ body {
         margin: 8px auto;
         background: black url(/images/box-rotate.png);
         transform: rotate(-15deg);
-        background-size: 200%;
-        background-position: -120px -40px; } }
+        background-size: 290%;
+        background-position: -220px -70px; } }
   body .clipInset {
     -webkit-clip-path: inset(0 0 0 0 round 340px 340px 340px 340px); }
   body main {
