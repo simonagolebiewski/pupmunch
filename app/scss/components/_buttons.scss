@@ -6,14 +6,14 @@
 	-webkit-appearance: none;
 	display: inline-block;
 	border: $button-border-width $button-border-style $button-border-color;
-	border-radius: $button-border-radius;
+	border-radius: 30px 15px 30px 15px;
 	background: $button-background;
 	color: $button-color;
 	font-weight: $button-font-weight;
 	font-family: $button-font-family;
 	font-size: $button-font-size;
 	text-transform: $button-text-transform;
-	padding: .75rem 1.25rem;
+	padding: 15px;
 	margin: 0 0 .5rem 0;
 	vertical-align: middle;
 	text-align: center;
