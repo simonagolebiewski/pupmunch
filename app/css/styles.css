@@ -466,7 +466,7 @@ h4,
 h5 {
   margin: 1.5rem 0;
   font-weight: 400;
-  font-family: "Ventura Edding Medium";
+  font-family: "Ventura Edding Bold";
   line-height: 1.2;
   color: #3C4858; }
   h1:not(:first-child),
@@ -485,10 +485,10 @@ h1 {
   font-size: 42px; }
 
 h2 {
-  font-size: 30px; }
+  font-size: 36px; }
 
 h3 {
-  font-size: 1.25rem; }
+  font-size: 24px; }
 
 h4 {
   font-size: 1.1rem; }
@@ -502,11 +502,11 @@ h5 {
   h3:not(:first-child) {
     margin-top: 2.5rem; }
   h1 {
-    font-size: 58px; }
+    font-size: 50px; }
   h2 {
-    font-size: 30px; }
+    font-size: 36px; }
   h3 {
-    font-size: 1.75rem; }
+    font-size: 24px; }
   h4 {
     font-size: 1.5rem; }
   h5 {
@@ -999,9 +999,9 @@ dd {
 .button, a.button, button, [type=submit], [type=reset], [type=button] {
   -webkit-appearance: none;
   display: inline-block;
-  border: 1px solid #3C4858;
+  border: 1px solid #00A9FF;
   border-radius: 30px 15px 30px 15px;
-  background: #3C4858;
+  background: #00A9FF;
   color: #ffffff;
   font-weight: 600;
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -1016,14 +1016,14 @@ dd {
   line-height: 1; }
 
 .button:hover, a.button:hover, button:hover, [type=submit]:hover, [type=reset]:hover, [type=button]:hover {
-  border: 1px solid #272f3a;
-  background: #272f3a;
+  border: 1px solid #0087cc;
+  background: #0087cc;
   color: #ffffff;
   text-decoration: none; }
 
 .button:focus, .button:active, a.button:focus, a.button:active, button:focus, button:active, [type=submit]:focus, [type=submit]:active, [type=reset]:focus, [type=reset]:active, [type=button]:focus, [type=button]:active {
-  border: 1px solid #272f3a;
-  background: #272f3a;
+  border: 1px solid #0087cc;
+  background: #0087cc;
   color: #ffffff;
   text-decoration: none; }
 
@@ -1034,15 +1034,15 @@ dd {
 .accent-button,
 a.accent-button {
   color: #ffffff;
-  border: 1px solid #5FBA7D;
-  background: #5FBA7D; }
+  border: 1px solid #3C4858;
+  background: #3C4858; }
   .accent-button:hover, .accent-button:focus, .accent-button:active,
   a.accent-button:hover,
   a.accent-button:focus,
   a.accent-button:active {
     color: #ffffff;
-    border: 1px solid #45a163;
-    background: #45a163; }
+    border: 1px solid #272f3a;
+    background: #272f3a; }
 
 .muted-button,
 a.muted-button {
@@ -1200,60 +1200,106 @@ caption {
   font-weight: normal;
   src: local("Ventura Edding Bold"), url("/fonts/Ventura_Edding_Bold.woff") format("woff"); }
 
+.staticHeader {
+  height: 100px;
+  background-color: transparent;
+  position: relative;
+  top: 200;
+  width: 100%;
+  -webkit-transition: background 2s;
+  /* For Safari 3.1 to 6.0 */
+  transition: background 2s; }
+
+.fixedHeader {
+  height: 64px;
+  position: fixed;
+  top: 200;
+  width: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1); }
+
+.mrg-top--120 {
+  margin-top: 120px; }
+
 body {
   position: relative;
   overflow-x: hidden; }
-  body .box {
-    width: 590px;
-    height: 1020px;
-    margin: 8px auto;
-    background: #FFFFFF;
-    position: absolute;
-    top: -220px;
-    right: 0;
-    transform: rotate(15deg);
-    z-index: -1; }
-    @media (min-width: 600px) {
-      body .box {
-        background: #FFFFFF; } }
-    @media (min-width: 1000px) {
-      body .box {
-        background: black url(/images/pup.png);
-        background-position: -520px 20px;
-        background-size: 250%; } }
-  body .clipInset-sm {
-    -webkit-clip-path: inset(0 0 0 0 round 0px 0px 0px 0px); }
-    @media (min-width: 600px) {
-      body .clipInset-sm {
-        -webkit-clip-path: inset(0 0 0 0 round 340px 340px 340px 340px); } }
-  body .box-sm {
-    width: 100%;
-    height: 200px;
-    background: url(/images/box.png);
-    position: relative;
-    z-index: -1;
-    background-size: cover;
-    transform: rotate(0deg); }
-    @media (min-width: 600px) {
-      body .box-sm {
-        width: 270px;
-        height: 450px;
-        margin: 8px auto;
-        background: black url(/images/box-rotate.png);
-        transform: rotate(-15deg);
-        background-size: 290%;
-        background-position: -220px -70px; } }
+  body nav a.logo {
+    padding: 40px 60px 0 0; }
   body .clipInset {
-    -webkit-clip-path: inset(0 0 0 0 round 340px 340px 340px 340px); }
+    -webkit-clip-path: inset(0 0 0 0 round 0px 0px 100px 0px); }
+  body .box {
+    background: black;
+    background-image: url("/images/hero-image.png");
+    animation: background-gradient 10s ease infinite;
+    height: 660px;
+    width: 90%;
+    border-bottom-right-radius: 100px;
+    z-index: -1;
+    position: absolute;
+    transform-origin: bottom left;
+    transform: skew(0deg, -8deg); }
+  body header h1, body header p {
+    color: #FFFFFF; }
+  body header h1 {
+    max-width: 300px; }
+  body #whats-inside ul {
+    padding-left: 0; }
+    body #whats-inside ul li {
+      font-size: 16px;
+      border-bottom: 1px solid;
+      border-color: #ededed;
+      list-style-type: none;
+      padding: 16px 0px;
+      line-height: 1; }
+      body #whats-inside ul li .check {
+        color: #00A9FF;
+        height: 20px;
+        float: right; }
+  body p.large {
+    font-size: 24px; }
+  body .shape-sm {
+    position: absolute;
+    left: -145px;
+    top: 160px; }
+  body .shape-sm--two {
+    position: absolute;
+    right: -145px;
+    top: 560px; }
   body main {
     position: relative;
     z-index: 1; }
-    body main .logo {
-      position: relative;
-      display: inline-block;
-      top: 40px; }
+    body main nav {
+      background: white;
+      box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1); }
+      body main nav .logo {
+        position: relative;
+        display: inline-block;
+        padding: 8px 0; }
+        body main nav .logo img {
+          width: 130px; }
+      body main nav .right {
+        text-align: right;
+        display: inline; }
+    body main figure {
+      position: absolute;
+      top: -100px;
+      z-index: -1; }
+    body main .image-grid .small-50 {
+      padding-left: 5px;
+      padding-right: 5px; }
+      body main .image-grid .small-50 figure {
+        background: black;
+        position: relative;
+        z-index: 1;
+        top: 0px;
+        margin-bottom: 10px; }
+      body main .image-grid .small-50 .sm {
+        height: 116px; }
+      body main .image-grid .small-50 .lg {
+        height: 220px; }
     body main .heading {
-      margin-top: 105px; }
+      margin-top: 60px; }
       body main .heading h1 {
         margin-bottom: 10px; }
       body main .heading span {
@@ -1290,6 +1336,11 @@ body {
       body main #about p {
         font-size: 18px;
         line-height: 1.8; }
+    body main #whats-inside {
+      margin-top: 60px; }
+      body main #whats-inside figure {
+        position: relative;
+        top: inherit; }
   body footer {
     text-align: center; }
     body footer span {

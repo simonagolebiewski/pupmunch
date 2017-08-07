@@ -13,73 +13,168 @@ font-weight: normal;
 src: local('Ventura Edding Bold'), url('/fonts/Ventura_Edding_Bold.woff') format('woff');
 }
 
+.staticHeader{
+height: 100px;
+background-color: transparent;
+position: relative;
+top:200;
+width: 100%;
+-webkit-transition: background 2s; /* For Safari 3.1 to 6.0 */
+transition: background 2s;
+}
+
+.fixedHeader {
+height: 64px;
+position: fixed;
+top:200;
+width: 100%;
+background-color: $white;
+box-shadow: 0 1px 8px 0 rgba(0,0,0,0.10);
+}
+
+
+
+// helpers
+.mrg-top--120 {
+  margin-top: 120px;
+}
+
 body {
   position: relative;
   overflow-x: hidden;
 
+  // Nav
+  nav {
+    a.logo {
+      padding: 40px 60px 0 0;
+    }
+  }
+
+  // Custom header image-grid
+  .clipInset {
+    -webkit-clip-path: inset(0 0 0 0 round 0px 0px 100px 0px);
+  }
 
   .box {
-    @include small-breakpoint {
-      background: $white;
-    }
-    @include large-breakpoint {
-      background: black url(/images/pup.png);
-      background-position: -520px 20px;
-      background-size: 250%;
-    }
-    width: 590px;
-    height: 1020px;
-    margin: 8px auto;
-    background: $white;
+    background: black;
+    background-image: url('/images/hero-image.png');
+    animation: background-gradient 10s ease infinite;
+    height: 660px;
+    width: 90%;
+    border-bottom-right-radius: 100px;
+    z-index: -1;
     position: absolute;
-    top: -220px;
-    right: 0;
-    transform: rotate(15deg);
-    z-index: -1;
+    transform-origin: bottom left;
+    transform: skew(0deg, -8deg);
   }
 
-  .clipInset-sm {
-    @include small-breakpoint {
-      -webkit-clip-path: inset(0 0 0 0 round 340px 340px 340px 340px);
+  // Header
+  header {
+    h1, p {
+      color: $white;
     }
-    -webkit-clip-path: inset(0 0 0 0 round 0px 0px 0px 0px);
+    h1 {
+      max-width: 300px;
     }
-
-  .box-sm {
-    @include small-breakpoint {
-      width: 270px;
-      height: 450px;
-      margin: 8px auto;
-      background: black url(/images/box-rotate.png);
-      transform: rotate(-15deg);
-      background-size: 290%;
-      background-position: -220px -70px
-    }
-    width: 100%;
-    height: 200px;
-    background: url(/images/box.png);
-    position: relative;;
-    z-index: -1;
-    background-size: cover;
-    transform: rotate(0deg);
   }
 
-  .clipInset {
-    -webkit-clip-path: inset(0 0 0 0 round 340px 340px 340px 340px);
+  // Section::whats-inside
+  #whats-inside {
+    ul {
+       padding-left: 0;
+      li {
+        font-size: 16px;
+        border-bottom: 1px solid;
+        border-color: darken($alternate-background, 5%);
+        list-style-type: none;
+        padding: 16px 0px;
+        line-height: 1;
+        .check {
+          color: $primary-color;
+          height: 20px;
+          float: right;
+        }
+      }
+    }
+  }
+
+
+  p.large {
+    font-size: 24px;
+  }
+
+  p.regular, li {
+    // color: lighten($font-color, 0%);
+  }
+
+
+
+  .shape-sm {
+    position: absolute;
+    left: -145px;
+    top: 160px;
+  }
+
+  .shape-sm--two {
+    position: absolute;
+    right: -145px;
+    top: 560px;
   }
 
   main {
     position: relative;
     z-index: 1;
 
-    .logo {
-      position: relative;
-      display: inline-block;
-      top: 40px;
+    nav {
+      background: white;
+      box-shadow: 0 1px 8px 0 rgba(0,0,0,.1);
+
+      .logo {
+        position: relative;
+        display: inline-block;
+        padding: 8px 0;
+          img {
+            width: 130px;
+          }
+        }
+
+        .right {
+          text-align: right;
+          display: inline;
+        }
     }
 
+
+
+      figure {
+        position: absolute;
+        top: -100px;
+        z-index: -1;
+      }
+
+      .image-grid {
+        .small-50 {
+          padding-left: 5px;
+          padding-right: 5px;
+
+            figure {
+            background: black;
+            position: relative;
+            z-index: 1;
+            top: 0px;
+            margin-bottom: 10px;
+            }
+            .sm {
+              height: 116px;
+            }
+            .lg {
+              height: 220px;
+            }
+        }
+      }
+
     .heading {
-      margin-top: 105px;
+      margin-top: 60px;
 
       h1 {
         margin-bottom: 10px;
@@ -137,8 +232,15 @@ body {
         line-height: 1.8;
       }
     }
-  }
 
+    #whats-inside {
+      margin-top: 60px;
+      figure {
+        position: relative;
+        top: inherit;
+      }
+    }
+  }
 
   footer {
     text-align: center;
