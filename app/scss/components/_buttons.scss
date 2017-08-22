@@ -90,10 +90,20 @@ a.round-button {
 	border-radius: $round-buttons;
 }
 
-// Square buttons
-.square-button,
-a.square-button {
-	border-radius: 0;
+// Small buttons
+.small-button,
+a.small-button {
+	padding: 10px;
+	font-size: 16px;
+	border: 0px solid;
+	background-color: $accent-button-background;
+	&:hover,
+	&:focus,
+	&:active {
+		color: $accent-button-color-hover;
+		border: 0px solid darken($accent-button-background, 10%);
+		background-color: darken($accent-button-background, 10%);
+	}
 }
 
 // Full width buttons (block level)
