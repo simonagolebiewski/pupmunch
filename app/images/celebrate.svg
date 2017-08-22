@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37" height="33" viewBox="0 0 37 33">
+  <defs>
+    <linearGradient id="celebrate-a" x1="19.955%" x2="139.371%" y1="50%" y2="49.609%">
+      <stop offset="0%" stop-color="#FC6986"/>
+      <stop offset="100%" stop-color="#EB3349"/>
+    </linearGradient>
+    <linearGradient id="celebrate-b" x1="55.685%" x2="29.891%" y1="100%" y2="34.635%">
+      <stop offset="0%" stop-color="#F97692"/>
+      <stop offset="100%" stop-color="#EF4159"/>
+    </linearGradient>
+    <linearGradient id="celebrate-c" x1="94.391%" x2="20.498%" y1="63.549%" y2="38.908%">
+      <stop offset="0%" stop-color="#FFC274"/>
+      <stop offset="100%" stop-color="#F48700"/>
+    </linearGradient>
+    <path id="celebrate-d" d="M1.83847571,20.4888599 C0.81286614,20.8825286 0.24633899,20.3436129 0.57255732,19.2887494 C0.57255732,19.2887494 5.9522095,1.8306885 6.2617188,1.4854736 C9.4649389,-2.08727596 20.4658203,11.0483516 18.0396729,14.2036133 C17.9609955,14.305935 1.83847571,20.4888599 1.83847571,20.4888599 Z"/>
+    <path id="celebrate-f" d="M1.83847571,20.4888599 C0.81286614,20.8825286 0.24633899,20.3436129 0.57255732,19.2887494 C0.57255732,19.2887494 5.9522095,1.8306885 6.2617188,1.4854736 C9.4649389,-2.08727596 20.4658203,11.0483516 18.0396729,14.2036133 C17.9609955,14.305935 1.83847571,20.4888599 1.83847571,20.4888599 Z"/>
+    <path id="celebrate-h" d="M1.83847571,20.4888599 C0.81286614,20.8825286 0.24633899,20.3436129 0.57255732,19.2887494 C0.57255732,19.2887494 5.9522095,1.8306885 6.2617188,1.4854736 C9.4649389,-2.08727596 20.4658203,11.0483516 18.0396729,14.2036133 C17.9609955,14.305935 1.83847571,20.4888599 1.83847571,20.4888599 Z"/>
+    <path id="celebrate-j" d="M1.83847571,20.4888599 C0.81286614,20.8825286 0.24633899,20.3436129 0.57255732,19.2887494 C0.57255732,19.2887494 5.9522095,1.8306885 6.2617188,1.4854736 C9.4649389,-2.08727596 20.4658203,11.0483516 18.0396729,14.2036133 C17.9609955,14.305935 1.83847571,20.4888599 1.83847571,20.4888599 Z"/>
+    <radialGradient id="celebrate-l" cx="38.814%" cy="54.426%" r="82.967%" fx="38.814%" fy="54.426%" gradientTransform="matrix(1 0 0 .90533 0 .052)">
+      <stop offset="0%" stop-color="#FEE9CE"/>
+      <stop offset="96.716%" stop-color="#FFB150"/>
+    </radialGradient>
+    <path id="celebrate-m" d="M1.83847571,20.4888599 C0.81286614,20.8825286 0.24633899,20.3436129 0.57255732,19.2887494 C0.57255732,19.2887494 5.9522095,1.8306885 6.2617188,1.4854736 C9.4649389,-2.08727596 20.4658203,11.0483516 18.0396729,14.2036133 C17.9609955,14.305935 1.83847571,20.4888599 1.83847571,20.4888599 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-3 1)">
+    <rect width="2" height="2" x="7.083" y="18.083" fill="#EB3349" fill-rule="nonzero" transform="rotate(5 8.083 19.083)"/>
+    <rect width="2" height="2" x="31.393" y="29.393" fill="#EB3349" fill-rule="nonzero" transform="rotate(-35 32.393 30.393)"/>
+    <rect width="2" height="2" x="31.393" y=".393" fill="#EB3349" fill-rule="nonzero" transform="rotate(-35 32.393 1.393)"/>
+    <rect width="2" height="2" x="30.409" y="24.409" fill="#F48700" fill-rule="nonzero" transform="rotate(40 31.409 25.409)"/>
+    <rect width="2" height="2" x="35.158" y="18.158" fill="#F48700" fill-rule="nonzero" transform="rotate(10 36.158 19.158)"/>
+    <rect width="2" height="2" x="29.158" y="20.158" fill="#4AB223" fill-rule="nonzero" transform="rotate(-10 30.158 21.158)"/>
+    <rect width="2" height="2" x="25.366" y="27.366" fill="#5EBEFF" fill-rule="nonzero" transform="rotate(-30 26.366 28.366)"/>
+    <rect width="2" height="2" x="20.366" y=".366" fill="#5EBEFF" fill-rule="nonzero" transform="rotate(-30 21.366 1.366)"/>
+    <rect width="2" height="2" x="35.158" y="25.158" fill="#8E45A5" fill-rule="nonzero" transform="rotate(-10 36.158 26.158)"/>
+    <rect width="2" height="2" x="21.366" y="5.366" fill="#8E45A5" fill-rule="nonzero" transform="rotate(60 22.366 6.366)"/>
+    <rect width="2" height="2" x="12.282" y="5.282" fill="#8E45A5" fill-rule="nonzero" transform="rotate(20 13.282 6.282)"/>
+    <path stroke="url(#celebrate-a)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16,19.3186035 C19.4199219,15.5327148 23.2878418,8.82348633 16.2609863,6"/>
+    <path stroke="#5EBEFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.8337402,22.501709 C17.8337402,22.501709 26.3835449,17.3371582 33.0979004,17.3371582"/>
+    <path stroke="url(#celebrate-b)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M27.4501626,11.1555176 C27.4501626,11.1555176 26.4372968,7.98557857 27.4501626,7.77197266 C28.4630284,7.55836675 29.9887368,10.0361328 31.273893,10.3491211 C32.5590493,10.6621094 33.5040419,7.2331543 31.995779,5.50341797 C30.4875161,3.77368164 34.5866699,8.48876953 37.0654297,6.67700195 C39.5441895,4.86523438 37.8249512,1.6887207 37.8249512,1.6887207"/>
+    <path stroke="#5EBEFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.12688467,12.1128654 C2.12688467,12.1128654 1.11401887,8.94292643 2.12688467,8.72932052 C3.13975047,8.51571461 4.66545889,10.9934806 5.95061514,11.3064689 C7.23577139,11.6194572 8.18076397,8.19050216 6.67250108,6.46076583 C5.16423818,4.7310295 9.26339201,9.44611739 11.7421518,7.63434981 C14.2209115,5.82258224 12.5016732,2.64606856 12.5016732,2.64606856" transform="scale(-1 1) rotate(-45 0 25.195)"/>
+    <path fill="url(#celebrate-c)" d="M1.83847571,20.4888599 C0.81286614,20.8825286 0.24633899,20.3436129 0.57255732,19.2887494 C0.57255732,19.2887494 5.9522095,1.8306885 6.2617188,1.4854736 C9.4649389,-2.08727596 20.4658203,11.0483516 18.0396729,14.2036133 C17.9609955,14.305935 1.83847571,20.4888599 1.83847571,20.4888599 Z" transform="translate(8 10)"/>
+    <g transform="translate(8 10)">
+      <mask id="celebrate-e" fill="#fff">
+        <use xlink:href="#celebrate-d"/>
+      </mask>
+      <g mask="url(#celebrate-e)">
+        <g transform="translate(9 7)">
+          <path fill="#000" fill-rule="nonzero" d="M0.8337402,5.501709 C0.8337402,5.501709 9.3835449,0.3371582 16.0979004,0.3371582"/>
+          <path stroke="#5EBEFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M0.8337402,5.501709 C0.8337402,5.501709 9.3835449,0.3371582 16.0979004,0.3371582"/>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(8 10)">
+      <mask id="celebrate-g" fill="#fff">
+        <use xlink:href="#celebrate-f"/>
+      </mask>
+      <g stroke-linecap="round" stroke-linejoin="round" mask="url(#celebrate-g)">
+        <path stroke="url(#celebrate-a)" stroke-width="2" d="M0,13.3186035 C3.4199219,9.5327148 7.2878418,2.82348633 0.2609863,0" transform="translate(8 -4)"/>
+      </g>
+    </g>
+    <g transform="translate(8 10)">
+      <mask id="celebrate-i" fill="#fff">
+        <use xlink:href="#celebrate-h"/>
+      </mask>
+      <rect width="2" height="2" x="8.158" y="4.158" fill="#4AB223" fill-rule="nonzero" mask="url(#celebrate-i)" transform="rotate(-10 9.158 5.158)"/>
+    </g>
+    <g transform="translate(8 10)">
+      <mask id="celebrate-k" fill="#fff">
+        <use xlink:href="#celebrate-j"/>
+      </mask>
+      <g mask="url(#celebrate-k)">
+        <g transform="translate(0 1)">
+          <path fill="#000" fill-rule="nonzero" d="M1.85656573,19.549207 C0.82096532,19.9095469 0.23267315,19.3410915 0.54336569,18.2826527 C0.54336569,18.2826527 5.6224976,0.7816772 6.3850098,0.2643433 C4.6252441,3.2911377 12.4577637,14.9375 18.0174561,13.2227783 C15.296875,14.9375 1.85656573,19.549207 1.85656573,19.549207 Z"/>
+          <path fill="url(#celebrate-l)" d="M1.85656573,19.549207 C0.82096532,19.9095469 0.23267315,19.3410915 0.54336569,18.2826527 C0.54336569,18.2826527 5.6224976,0.7816772 6.3850098,0.2643433 C4.6252441,3.2911377 12.4577637,14.9375 18.0174561,13.2227783 C15.296875,14.9375 1.85656573,19.549207 1.85656573,19.549207 Z"/>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(8 10)">
+      <mask id="celebrate-n" fill="#fff">
+        <use xlink:href="#celebrate-m"/>
+      </mask>
+      <rect width="2" height="2" x="4.366" y="11.366" fill="#8E45A5" fill-rule="nonzero" mask="url(#celebrate-n)" transform="rotate(30 5.366 12.366)"/>
+    </g>
+  </g>
+</svg>
