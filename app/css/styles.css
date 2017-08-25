@@ -1417,7 +1417,7 @@ body {
       display: inline-block;
       margin-bottom: 100px; }
   body #whats-inside {
-    background: url("../images/wave1-4310191f39.png") 50% 0 no-repeat;
+    background: url("/images/wave1-4310191f39.png") 50% 0 no-repeat;
     background-size: cover; }
     body #whats-inside img {
       width: 100%;
@@ -1426,7 +1426,7 @@ body {
         body #whats-inside img {
           margin-top: 120px; } }
   body #how-it-works {
-    background: url("../images/wave2-6e39a65732.png") 50% 0 no-repeat;
+    background: url("/images/wave2-6e39a65732.png") 50% 0 no-repeat;
     background-size: cover;
     padding-bottom: 80px;
     padding-top: 40px; }
