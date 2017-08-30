@@ -1563,6 +1563,8 @@ body {
       margin: 0; }
     body footer span {
       color: #FF054B; }
+    body footer a {
+      text-decoration: underline; }
 
 .prelaunch {
   position: relative;
