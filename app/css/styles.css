@@ -1448,6 +1448,15 @@ body {
       color: #FFFFFF; }
     body #get-started .card h2, body #get-started .card p.large, body #get-started .card p.regular {
       color: #3C4858; }
+    body #get-started .card ul li.strikethrough {
+      text-decoration: line-through;
+      color: red; }
+    body #get-started .card ul span {
+      font-size: 13px;
+      font-weight: normal;
+      display: block;
+      margin-top: 10px;
+      font-style: italic; }
     body #get-started h2 {
       margin-bottom: 10px; }
       body #get-started h2 span {
@@ -1554,6 +1563,8 @@ body {
       margin: 0; }
     body footer span {
       color: #FF054B; }
+    body footer a {
+      text-decoration: underline; }
 
 .prelaunch {
   position: relative;

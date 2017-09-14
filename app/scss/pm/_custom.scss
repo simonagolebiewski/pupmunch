@@ -322,6 +322,20 @@ body {
       h2, p.large, p.regular {
         color: $accent-color;
       }
+
+      ul {
+        li.strikethrough {
+          text-decoration: line-through;
+          color: red;
+        }
+        span {
+          font-size:13px;
+          font-weight: normal;
+          display: block;
+          margin-top: 10px;
+          font-style: italic;
+        }
+      }
     }
 
     h2 {
@@ -499,6 +513,10 @@ body {
 
     span {
       color: #FF054B;
+    }
+
+    a {
+      text-decoration: underline;
     }
   }
 }
